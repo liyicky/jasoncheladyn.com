@@ -5,9 +5,10 @@
   position: relative;
   text-align: center;
   width: 100%;
+  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.4), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
-/* line 12, ../sass/parallax.scss */
+/* line 13, ../sass/parallax.scss */
 .parallax-static-content {
   color: #9A9A8A;
   padding: 8em 0;
@@ -16,11 +17,10 @@
 }
 
 /* Using the active slide from slick */
-/* line 20, ../sass/parallax.scss */
+/* line 21, ../sass/parallax.scss */
 .carouselimg {
   background-position: top;
   background-size: cover;
-  background-color: beige;
   height: 60em;
   left: 0;
   position: absolute;

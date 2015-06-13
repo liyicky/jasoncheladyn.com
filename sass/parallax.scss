@@ -7,6 +7,7 @@ $parallax-background-height: $parallax-window-height * 2;
   position: relative;
   text-align: center;
   width: 100%;
+  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.4), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
 .parallax-static-content {
