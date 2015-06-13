@@ -109,6 +109,7 @@ body {
 }
 
 .carouselimg {
+  min-width: 1000px;
 }
 
 .slick-track {
