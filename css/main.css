@@ -90,13 +90,16 @@ textarea {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
-jj    padding: 0.2em 0;
+    padding: 0.2em 0;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body { height: 3000px; }
+body {
+  background-color:#F5F3EE;
+  height: 3000px;
+}
 .carousel {
   display: block;
   width: 100%;
@@ -109,7 +112,26 @@ body { height: 3000px; }
 }
 
 .slick-track {
-  height: 300px
+  height: 300px;
+}
+
+.card-one-head {
+  position:relative;
+  overflow:hidden;
+}
+
+.card-one-img {
+  position:absolute;
+  width:75% !important;
+  margin-left:12%;
+  margin-top:3%;
+}
+
+.card-image {
+  background-color:#F5F3EE !important;
+
+.sprinkle-canvas {
+  position:absolute;
 }
 
 

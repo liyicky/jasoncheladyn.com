@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="stylesheets/cards.css">
         <link rel="stylesheet" href="stylesheets/parallax.css">
         <link rel="stylesheet" href="slick/slick.css">
         <link rel="stylesheet" href="slick/slick-theme.css">
@@ -35,6 +36,7 @@
         <script src="js/main.js"></script>
         <script src="js/parallax.js"></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
 
         <nav>
           <ul>
@@ -58,9 +60,37 @@
           </div>
         </div>
 
-
-
-
+        <div class="cards">
+          <div class="card">
+            <div class="card-one-head">
+              <div class="card-image">
+                <img class="card-one-img" src="assets/sprinkle_logo.png">
+                <canvas class="card-one-cavas" style="height:118px;width:390px;" alt="Sprinkle AI" data-processing-sources="js/sprinkle.pde"></canvas>
+              </div>
+            </div>
+            <div class="card-header">First Card</div>
+            <div class="card-copy">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image"><img src="http://apluspetsitting.com/blog/wp-content/uploads/2014/03/cats.jpg"></div>
+            <div class="card-header">Second Card</div>
+            <div class="card-copy">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image"><img src="http://apluspetsitting.com/blog/wp-content/uploads/2014/03/cats.jpg"></div>
+            <div class="card-header">Third Card</div>
+            <div class="card-copy">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+            </div>
+          </div>
+        </div>
 
         <script>
           $(document).ready(function(){
