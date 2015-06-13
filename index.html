@@ -33,26 +33,23 @@
         <script src="js/main.js"></script>
 
 
-        <div>
-
+        <div class="carousel">
+          <div><img class="carouselimg" src="http://apluspetsitting.com/blog/wp-content/uploads/2014/03/cats.jpg"></div>
+          <div><img class="carouselimg" src="http://www.wall321.com/thumbnails/detail/20120428/cats%20photography%20kittens%202560x1600%20wallpaper_www.wall321.com_50.jpg"></div>
         </div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+        <script>
+          $(document).ready(function(){
+            $(".carousel").slick({
+              autoplay: true,
+              autoPlaySpeed: 1000
+            });
+          });
+          </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
