@@ -1,0 +1,29 @@
+/* line 4, ../sass/parallax.scss */
+.parallax-window {
+  max-height: 30em;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 12, ../sass/parallax.scss */
+.parallax-static-content {
+  color: #9A9A8A;
+  padding: 8em 0;
+  position: relative;
+  z-index: 9;
+}
+
+/* Using the active slide from slick */
+/* line 20, ../sass/parallax.scss */
+.carouselimg {
+  background-position: top;
+  background-size: cover;
+  background-color: beige;
+  height: 60em;
+  left: 0;
+  position: absolute;
+  top: -10em;
+  width: 100%;
+}
