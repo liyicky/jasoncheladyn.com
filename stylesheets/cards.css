@@ -101,3 +101,44 @@
 .card:active .card-header {
   background-color: #f6f6f6;
 }
+
+/* line 93, ../sass/cards.scss */
+.card-one-head {
+  position: relative;
+  overflow: hidden;
+}
+/* line 97, ../sass/cards.scss */
+.card-one-head .card-one-img {
+  position: absolute;
+  width: 75% !important;
+  margin-left: 12%;
+  margin-top: 3%;
+}
+/* line 103, ../sass/cards.scss */
+.card-one-head .card-image {
+  background-color: #F5F3EE;
+}
+
+/* line 108, ../sass/cards.scss */
+.card-two-head {
+  position: relative;
+  overflow: hidden;
+}
+/* line 112, ../sass/cards.scss */
+.card-two-head .card-two-img {
+  margin-top: 3%;
+}
+/* line 115, ../sass/cards.scss */
+.card-two-head .card-image {
+  background-color: white;
+}
+
+/* line 120, ../sass/cards.scss */
+.card-three-head {
+  position: relative;
+  overflow: hidden;
+}
+/* line 124, ../sass/cards.scss */
+.card-three-head .card-three-img {
+  margin-top: -22%;
+}

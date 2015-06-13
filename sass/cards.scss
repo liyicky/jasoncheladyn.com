@@ -87,3 +87,41 @@
     }
   }
 }
+
+// Custom
+
+.card-one-head {
+  position:relative;
+  overflow:hidden;
+
+  .card-one-img {
+    position:absolute;
+    width:75% !important;
+    margin-left:12%;
+    margin-top:3%;
+  }
+  .card-image {
+    background-color:#F5F3EE;
+  }
+}
+
+.card-two-head {
+  position:relative;
+  overflow:hidden;
+
+  .card-two-img {
+    margin-top:3%;
+  }
+  .card-image {
+    background-color:white;
+  }
+}
+
+.card-three-head {
+  position:relative;
+  overflow:hidden;
+
+  .card-three-img {
+    margin-top:-22%;
+  }
+}
